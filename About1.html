@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dhanushka's Website</title>
+<style>
+h1{
+	text-align:center;
+	font-size:24px;
+}
+h2{
+	text-align:center;
+	font-size:24px;
+}
+h3{
+	text-align:center;
+	font-size:24px;
+}
+input[type=text],select{
+	width:100%;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid#ccc;
+	border-radius:4px;
+	box-sizing:
+	border-box;
+}
+input [type=submit]{
+	width:100px;
+	background-color:#4CAF50;
+	color:white;
+	padding: 14px 20px;
+	margin 8px 0;
+	border:
+	none;
+	border-radius:4px;
+	cursor:pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=Delete],input[type=Edit]{
+	width::80px;
+	background-color:#4CAF50;
+	
+	
+	color:white;
+	padding:6px 6px;
+	margin:6px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+}
+input[type=Delete],input[type=Edit]:hover {
+    background-color: #45a049;
+}
+div{
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+}
+b:link{background-color:yellow;
+}
+b.visted{background-color:cyan;
+}
+b.hover{
+	background-color:lightgree:
+}
+b.active{
+	
+	background-color:hotpink;
+}
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 10px;
+  height: 300px; 
+  font-size:18px;
+}
+h1.ten{
+	font-size:24px;
+	text-align:left;
+	color:#000;
+}
+</style>
+</head>
+
+<body>
+<h1>Want You To Renew your Library Membership?</h1>
+<h2>You Can Renew From Here</h2>
+<h3>Membership Renewal Form</h3>
+<div>
+<form action="/action_page.php">
+<label for="Membersip No">Membership No</label>
+<input type="text" id="Membership No" name="Membership No" placeholder="Your Membership No.."> 
+<label for="ID">Your ID number</label>
+<input type="text" id="Id" name="ID" palceholder="Your ID No...." />
+
+ <label for="Membership Catagoery">Membership Catagoery</label>
+ <select id="Membership catagoery" name="Membership catagoery">
+<option value="Anual Membership">Anual Membership</option>
+<option value="Monthly Membership">Monthly Membership</option> 
+</select>
+<select id="Membership Fees" name="Membership Fees">
+<option value="Anual Membership fee">Rs1200</option>
+<option value="Monthly Membership fee">Rs 100</option>
+
+</select>
+
+
+
+<button type="button" onclick="alert('Membership Renewal form submitted')" >Submit</button>
+
+
+
+
+</form>
+</div>
+</body>
+</html>
